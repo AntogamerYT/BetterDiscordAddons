@@ -1,5 +1,5 @@
 /**
- * @name ShowHiddenChannels
+ * @name ShowHiddenChannelsAntonip
  * @author Antonip
  * @version 3.2.5
  * @description Displays all hidden Channels, which can't be accessed due to Role Restrictions, this won't allow you to read them (impossible)
