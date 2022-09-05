@@ -1,0 +1,2 @@
+# BetterDiscordAddons
+just patching showhiddenchannels
