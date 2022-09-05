@@ -8,8 +8,8 @@
  * @donate https://www.paypal.me/MircoWittrien
  * @patreon https://www.patreon.com/MircoWittrien
  * @website https://mwittrien.github.io/
- * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Library/
- * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Library/0BDFDB.plugin.js
+ * @source https://github.com/AntogamerYT/BetterDiscordAddons/tree/main/Library/
+ * @updateUrl https://raw.githubusercontent.com/AntogamerYT/BetterDiscordAddons/Library/0BDFDB.plugin.js
  */
 
 module.exports = (_ => {
