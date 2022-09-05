@@ -4,8 +4,6 @@
  * @version 3.2.5
  * @description Displays all hidden Channels, which can't be accessed due to Role Restrictions, this won't allow you to read them (impossible)
  * @invite Jx3TjNS
- * @donate https://www.paypal.me/MircoWittrien
- * @patreon https://www.patreon.com/MircoWittrien
  * @website https://mwittrien.github.io/
  * @source https://github.com/AntogamerYT/BetterDiscordAddons/Plugins/ShowHiddenChannels/
  * @updateUrl https://raw.githubusercontent.com/AntogamerYT/BetterDiscordAddons/Plugins/ShowHiddenChannels/ShowHiddenChannels.plugin.js
@@ -14,7 +12,7 @@
  module.exports = (_ => {
 	const config = {
 		"info": {
-			"name": "ShowHiddenChannels",
+			"name": "ShowHiddenChannels By Antonip",
 			"author": "Antonip",
 			"version": "3.2.5",
 			"description": "Displays all hidden Channels, which can't be accessed due to Role Restrictions, this won't allow you to read them (impossible)"
@@ -30,7 +28,7 @@
 		downloadLibrary () {
 			require("request").get("https://raw.githubusercontent.com/AntogamerYT/BetterDiscordAddons/main/Library/0BDFDB.plugin.js", (e, r, b) => {
 				if (!e && b && r.statusCode == 200) require("fs").writeFile(require("path").join(BdApi.Plugins.folder, "0BDFDB.plugin.js"), b, _ => BdApi.showToast("Finished downloading BDFDB Library", {type: "success"}));
-				else BdApi.alert("Error", "Could not download BDFDB Library Plugin. Try again later or download it manually from GitHub: https://mwittrien.github.io/downloader/?library");
+				else BdApi.alert("Error", "Could not download BDFDB Library Plugin. Try again later or download it manually from GitHub: https://github.com/AntogamerYT/BetterDiscordAddons/tree/main/Library");
 			});
 		}
 		
